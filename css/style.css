@@ -61,5 +61,10 @@ text-decoration: underline;
 text-transform: uppercase;
 letter-spacing: 0.2em;
 word-spacing: 1em;
+}
 
+.box-2{
+border: 3px dotted lightgray;
+padding: 20px;
+margin: 20px;
 }
