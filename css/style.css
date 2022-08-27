@@ -22,4 +22,6 @@ body {
   border-left: 5px red solid;
   border-top: 5px red solid;
   border-bottom: 5px red solid;
+/*same as able*/
+  border: 5px red solid;
 }
