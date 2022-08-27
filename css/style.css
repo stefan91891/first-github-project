@@ -19,4 +19,7 @@ body {
   color: #fff;
 
   border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
 }
