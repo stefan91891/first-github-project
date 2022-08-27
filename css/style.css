@@ -17,4 +17,6 @@ body {
 .box-1 {
   background-color: black;
   color: #fff;
+
+  border: right 5px red solid; ;
 }
