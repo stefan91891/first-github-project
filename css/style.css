@@ -68,3 +68,11 @@ border: 3px dotted lightgray;
 padding: 20px;
 margin: 20px;
 }
+
+.categories{
+
+border: 1px gray solid;
+padding: 10px;
+border-radius: 15px;
+
+}
