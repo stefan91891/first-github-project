@@ -30,13 +30,20 @@ a:hover {
 a:active {
   color: green;
 }
-a:visited {
-  color: c=black;
-}
 .container {
   width: 80%;
   margin: auto;
 }
+.button{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  }
+  .button:hover{
+    background: red;
+    color: #fff;
+  }
 .box-1 {
   background-color: black;
   color: #fff;
@@ -112,12 +119,4 @@ a:visited {
 .my-form input[type="text"], .my-form textarea {
   padding: 8px;
   width: 100%;
-}
-
-.my-form input[type="submit"]{
-
-background-color: #333;
-color: #fff;
-padding: 10px 15px;
-border: none;
 }
