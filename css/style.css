@@ -7,8 +7,6 @@ padding:0;
 }
 */
 
-
-
 body {
   background-color: #f4f4f4;
   color: #555555;
@@ -20,6 +18,17 @@ body {
   font: 16px arial, helvetica, sans-serif;
   line-height: 1.6em;
   margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+
+a:active{
+  color: green;
 }
 .container {
   width: 80%;
@@ -33,10 +42,10 @@ body {
   border-left: 5px red solid;
   border-top: 5px red solid;
   border-bottom: 5px red solid;
-/*same as above*/
+  /*same as above*/
   border: 5px red solid;
   border-width: 3px;
-  border: bottom width 10px; ;
+  border: bottom width 10px;
   border-top-style: dotted;
 
   border: 5px red solid;
@@ -49,30 +58,34 @@ body {
   padding: 20px;
 
   margin-top: 20px;
-  margin:20px  0;
-
+  margin: 20px 0;
 }
 
-.box-1 h1{
-font-family:Tahoma;
-font-weight: 800;
-font-style: italic;
-text-decoration: underline;
-text-transform: uppercase;
-letter-spacing: 0.2em;
-word-spacing: 1em;
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
 }
 
-.box-2{
-border: 3px dotted lightgray;
-padding: 20px;
-margin: 20px;
+.box-2 {
+  border: 3px dotted lightgray;
+  padding: 20px;
+  margin: 20px;
 }
 
-.categories{
-
-border: 1px gray solid;
-padding: 10px;
-border-radius: 15px;
-
+.categories {
+  border: 1px gray solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+.categories h2 {
+  text-align: center;
+}
+.categories ul {
+  padding: 0;
+  list-style: none;
 }
