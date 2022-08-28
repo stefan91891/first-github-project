@@ -109,7 +109,15 @@ a:visited {
   display: block;
 }
 
-.my-form input {
+.my-form input[type="text"], .my-form textarea {
   padding: 8px;
   width: 100%;
+}
+
+.my-form input[type="submit"]{
+
+background-color: #333;
+color: #fff;
+padding: 10px 15px;
+border: none;
 }
